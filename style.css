@@ -1,70 +1,67 @@
 *{
     margin: 0;
     padding: 0;
+} 
+
+
+body{ 
+
+background-color: black;
+color: white;
+height: 100vh;
+box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
-}
-
-.titulo-destaque{
+.titulo-destaque{ 
     color: #22D4FD;
 }
 
-.apresentacao{
-    margin: 10% 15%;
+
+  .apresentacao{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.apresentacao__conteudo{
-    width: 615px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
+    margin: 10% 15%;
+  }
 
-.apresentacao__conteudo__titulo{
+  .apresentacao_conteudo{
+    width: 615px;
+    display:flex;
+    flex-direction: column;
+    gap: 40px; /*tamanho do espacamento*/
+
+  }
+
+  .apresentacao_titulo{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
-}
+  }
 
-.apresentacao__conteudo__texto{
+  .apresentacao_conteudo_texto{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-}
+    font-family: 'Montserrat',sans-serif;    
+  }
 
-.apresentacao__links{
+  .apresentacao_links{
     display: flex;
     justify-content: space-between;
-}
 
-.apresentacao__links__link{
-    background-color: #22D4FD;
-    width: 280px;
-    text-align: center;
-    border-radius: 16px;
+  }
+
+
+  .apresentacao_links_link {
+    background-color:#22D4FD;   
+    width:250px ;         /*tamanho do botao*/   
+    text-align: center;    /*alinha  botao*/
+    border-radius: 16px ; /*tamanho da letra*/
     font-size: 24px;
-    font-weight: 600;
+    font-weight:600 ;/*peso da fonte*/
     padding: 21.5px 0;
-    text-decoration: none;
+    text-decoration:none;/*tira linha abaixo do texto do botao*/
     color: #000000;
-    font-family: 'Montserrat', sans-serif;
-}
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+    font-family: 'Montserrat',sans-serif;    
+
+
+  }
+
+
